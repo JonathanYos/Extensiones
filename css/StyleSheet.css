@@ -62,7 +62,7 @@ body{
 	left:125px;
 	top:155px;
 	text-align: center;
-	width:295px;
+	width:300px;
 	height: 50px;
 	background-color:#333333; 
 }
@@ -76,7 +76,7 @@ body{
     font-weight:500;
     font-size:14px;
     font-family: 'Raleway',sans-serif;
-    width: 293px;
+    width: 300px;
 }
 
 #sec{
@@ -948,4 +948,19 @@ width:100%;
 position:fixed;
 bottom:0;
 left:0;
+}
+#tbcel1,#tbcel2,#tbcel3,#tbcel4,#tbcel5,#tbcel6{
+	width: auto;
+	margin-bottom: 20px;
+	display: block;
+	position: absolute;
+	left:0px;
+	text-align: center;
+	height: 164px;
+}
+#tbcel2 td, #tbcel4 td, #tbcel6 td{
+	background: #D1ECC6;
+}
+#tbcel1 td, #tbcel3 td, #tbcel5 td{
+	background: #B7C8DF;
 }

@@ -5,6 +5,8 @@
 		<title>Extensiones Antigua</title>
 		<link rel="stylesheet" type="text/css" href="css/StyleSheet.css" media="screen">
         <link href="http://allfont.es/allfont.css?fonts=architects-daughter" rel="stylesheet" type="text/css" />
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
 		<style>
 			table {
 	   			 	border: 1px solid black;
@@ -66,48 +68,14 @@
 				<img src="images/Direccion.png" width="180px" height="50px">
 			</div>
 			<div id="dirinfo">
-				<table class="tabinfo">
-				  <tr>
-				    
-				    <td>Rebeca Sanborn</td>
-				    <td>Directora Nacional</td>
-                    <td><b>312</b></td>
-				  </tr>
-				  <tr>
-				    
-				    <td>Pablo Cerme&ntilde;o</td>
-				    <td>Director Administrativo</td>
-                    <td><b>202  </b></td>
-				  </tr>
-				    <tr>
-					    
-					    <td>Jeff Barnes</td>
-					    <td>Planeaci&oacute;n Estrat&eacute;gica</td>
-                        <td><b>502</b></td>
-				    </tr>
-				   <tr>
-				    
-				    <td>Renato Westby</td>
-                    <td>Programas Educativos</td>
-                    <td><b>526</b></td>
-				  </tr>
-                    
+				<table id="tbdirec" class="tabinfo">
 				</table>
 			</div>
 			<div id="sec">
 				<img src="images/sec.png" width="180px" height="50px">
 			</div>
 			<div id="secinfo">
-			    <table width="180px">
-				  <tr>
-				    <td>Entrada Principal</td><td>
-                    <b>110</b></td>
-				  </tr>
-				  <tr>
-				    <td>Oficina Seguridad</td>
-                    <td><b>204</b></td>
-				  </tr>
-                
+			    <table id="tbsecu" width="180px">
 				</table>
 			</div>
 			<div id="profond"></div>
@@ -118,262 +86,60 @@
 				<img src="images/jovenes.png" width="180px" height="50px">
 			</div>
 			<div id="jovenesinfo">
-				<table width="180px">
-				  <tr>
-                    <td>Rigoberto Garc&iacute;a</td>
-				    <td><b>608</b></td>
-				    
-				  </tr>
-				 
-				  <tr>
-                    <td>Azucena Barrientos</td>
-				    <td><b>610</b></td>
-				    
-				  </tr>
-				  <tr>
-				   <td>Jaime Guerra</td> 
-				    <td><b>611</b></td>
-				  </tr>
-                    <tr>
-                    <td>Paulo Garc&iacute;a</td>
-				    <td><b>609</b></td>
-				    
-				  </tr>
-
+				<table id="tbjov" width="180px">
 				</table>
 			</div>
 			<div id=biblioteca>
 				<img src="images/biblioteca.png" width="180px" height="50px">
 			</div>
 			<div id="biblioinfo">
-				<table width="180px">
-				  <tr>
-                    <td>Lynn Miller</td>
-				    <td><b>602</b></td>
-				     
-				  </tr>
-				 <tr>
-                    <td>BertaB</td>
-				    <td><b>602</b></td>
-				 </tr>
-                    <tr>
-                <td>Gricelda</td>
-				    <td><b>602</b></td>
-                   </tr>
-				
+				<table id="tbbibli" width="180px">
 				</table>
 			</div>
 			<div id="centro">
 				<img src="images/centro.png" width="175px" height="50px">
 			</div>
 			<div id="centroinfo">
-					<table width="175px">
-				  <tr>
-                    <td>Helen Jerez</td>
-				    <td><b>606</b></td>
-				  </tr>
-				  <tr>
-                     <td>Azucena Tecun</td>
-				    <td><b>606</b></td>
-				 </tr>
-                  <tr>
-                    <td>Elizabeth Gonz&aacute;lez</td>
-				    <td><b>606</b></td>
-				  </tr>
-				  
-				   <tr>
-                    <td>Sal&oacute;n B&eacute;bes</td>
-				    <td><b>604</b></td>
-				  </tr>
-                  </table>
+				<table id="tbci" width="175px">
+                </table>
 			</div>
 			<div id="becas">
 				<img src="images/becas.png" width="180px" height="50px">
 			</div>
 			<div id="becasinfo">
-					<table width="180px">
-				  <tr>
-				    <td>Nineth Garc&iacute;a</td>
-                    <td><b>620</b></td>
-				  </tr>
-                     <tr>
-				    <td class="auto-style57">Denisse Ru&iacute;z</td>
-                    <td class="auto-style57"><b>614</b></td>
-				  </tr>
-                   <tr>
-				    <td>Luis Pichill&aacute;</td>
-                    <td><b>615</b></td>
-				  </tr>
-				  <tr>
-				    <td>Nidya Gonz&aacute;lez</td>
-                    <td><b>619</b></td>
-				  </tr>
-				 
-                                  
+				<table id="tbbecas" width="180px">           
 				</table>
 			</div>
 			<div id="apoyo">
 				<img src="images/apoyo.png" height="50px" style="width: 172px">
 			</div>
 			<div id="apoyoinfo">
-						<table width="180px">
-				  <tr>
-				   <td>Felipe Bagur</td>
-				   <td><b>205</b></td>
-				  </tr>
-                   <tr>
-				    <td class="auto-style57">Angel Cubur</td>
-				    <td class="auto-style57"><b>205</b></td>
-				            </tr>
-                            <tr>
-				    <td>Alejandra Jocop</td>
-				    <td><b>205</b></td>
-				            </tr>
-                            <tr>
-				    <td>EPS</td>
-				    <td><b>205</b></td>
-				            </tr>
-				  
-				 
-                
+				<table id="tbapoy" width="180px">				 
 				</table>
 			</div>
 			<div id="vivienda">
 				<img src="images/vivienda.png" height="50px" style="width: 174px">
 			</div>
 			<div id="viviendainfo">
-						<table>
-				  <tr>
-				    <td class="auto-style77">Josu&eacute; Sic&aacute;n</td> 
-				    <td class="auto-style76"><b>511</b></td>
-				  </tr>
-                   <tr>
-				    <td class="auto-style77">Edwin C</td>
-				    <td class="auto-style76"><b>651</b></td>
-				  </tr>
-				  <tr>
-				    <td class="auto-style77">Fernando Santos&nbsp;</td>
-				    <td class="auto-style76"><b>651</b></td>
-				  </tr>
-				  <tr>
-				    <td class="auto-style77">Reynaldo</td>
-				    <td class="auto-style76"><b>651</b></td>
-				  </tr>
-                
+				<table id="tbvivenda"> 
 				</table>
 			</div>
 			<div id="ts">
 				<img src="images/ts.png" width="180px" height="50px">
 			</div>
 			<div id="tsinfo1">
-					<table width="180px">   
-                        <tr>
-				    <td class="auto-style57">Patricia Ram&iacute;rez</td>
-				    <td class="auto-style57"><b>108</b></td>
-				        </tr>
-				  <tr>
-				   <td>Adriana Alquijay</td>
-				   <td><b>122</b></td>
-				  </tr>
-                   <tr>
-				    <td>Alicia Ram&iacute;rez</td>
-				    <td><b>123</b></td>
-				  </tr>
-                   <tr>
-				    <td>Beatriz L&oacute;pez</td>
-				    <td><b>122</b></td>
-				  </tr>
-                   <tr>
-				    <td>Gabriela Vel&aacute;squez</td>
-				    <td><b>122</b></td>
-				  </tr>
-                   <tr>
-				    <td>Jazmin Gonz&aacute;lez</td>
-				    <td><b>124</b></td>
-				 </tr>
-                  
-				 
-				  
-				 
+				<table id="tbts1" width="180px"> 
 				</table>
 			</div>
 			<div id="tsinfo2">
-					<table >
-				      <tr>
-				    <td class="auto-style66">Lesbia Garc&iacute;a</td>
-				    <td class="auto-style68"><b>123</b></td>
-				  </tr>
-                      <tr>
-				    <td class="auto-style66">Lissgrid L&oacute;pez</td>
-				    <td class="auto-style68"><b>124</b></td>
-				  </tr> 
-                     <tr>
-				    <td class="auto-style67">Melany Cabrera</td>
-				    <td class="auto-style65"><b>121</b></td>
-				  </tr>
-                    <tr>
-				    <td class="auto-style66">Paola de Matta</td>
-				    <td class="auto-style68"><b>124</b></td>
-				  </tr>
-				
-                   
-				  <tr>
-				    <td class="auto-style66">Romelia Por&oacute;n</td>
-				    <td class="auto-style68"><b>121</b></td>
-				  </tr>
-				 <tr>
-				    <td class="auto-style66">&nbsp;</td>
-				    <td class="auto-style68">&nbsp;</td>
-				  </tr>
-				 
-				 		 			               
+				<table id="tbts2">	               
 				</table>
 			</div>
 			<div id="clinica">
 				<img src="images/Clinica.png" width="180px" height="50px">
 			</div>
 			<div id="clinicainfo">
-				<table width="180px">
-				    <tr>
-				    <td>Walter Estrada</td>
-				    <td><b>305</b></td>
-				  </tr>
-                    <tr>
-				    <td>Laboratorio</td>
-				    <td><b>309</b></td>
-				  </tr>
-                   <tr>
-				    <td>Cl&iacute;nica</td>
-				    <td><b>310</b></td>
-				  </tr>
-                    <tr>
-				    <td>Cl&iacute;nica Dental</td>
-				    <td><b>316</b></td>
-				  </tr>
-                   <tr>
-				    <td>Farmacia Ana Alonzo</td>
-				    <td><b>401</b></td>
-				  </tr>
-                   <tr>
-				    <td>Signos Vitales</td>
-				    <td><b>302</b></td>
-				  </tr>
-				 <tr>
-                    <td>Laura Gonz&aacute;les</td>
-				    <td><b>304</b></td>
-				  </tr>  
-				  
-				  
-				  
-				  <tr>
-				    <td>Recepci&oacute;n (Michelle)</td>
-				    <td><b>301</b></td>
-				  </tr>
-				  	 
-				  
-				  
-				  
-                
+				<table id="tbsalud" width="180px">
 				</table>
 			</div>
 			<div id="admfond"></div>
@@ -384,88 +150,21 @@
 				<img src="images/sistemas.png" width="180px" height="50px">
 			</div>
 			<div id="sisinfo">
-				<table width="180px">
-				  <tr>
-				    <td>Patricia de Le&oacute;n</td>
-				    <td><b>210</b></td>
-				  </tr>
-                  <tr>
-				    <td>Brandon Barrera</td>
-				    <td><b>212</b></td>
-				  </tr>
-				  <tr>
-				    <td>Francisco B.</td>
-				    <td><b>211</b></td>
-				  </tr>
-				 <tr>
-				    <td>Jonathan Yos</td>
-				    <td><b>213</b></td>
-				  </tr>
-				  <tr>
-				    <td>Lizandro C. CDI</td>
-				    <td><b>618</b></td>
-				  </tr>
-                   
-				  <tr>
-				    <td>Servidores</td>
-				    <td><b>120</b></td>
-				  </tr>
-                    
+				<table id="tbsist" width="180px">
 				</table>
 			</div>
 			<div id="conta">
 				<img src="images/conta.png" width="180px" height="50px">
 			</div>
 			<div id="containfo">
-				<table width="180px">
-				  <tr>
-				    <td>Claudia Silva</td>
-				    <td><b>404</b></td>
-				  </tr>
-				  <tr>
-				    <td>Edwin Gir&oacute;n</td> 
-				    <td><b>402</b></td>
-				  </tr>
-                   <tr>
-				    <td>Fredy Paniagua</td>
-				    <td><b>405</b></td>
-				  </tr>
-				  <tr>
-				    <td>Jose Luis V</td>
-				    <td><b>402</b></td>
-				  </tr> 
-                   <tr>
-				    <td>Marcos Castro</td>
-				    <td><b>409</b></td>
-				  </tr>
-				     <tr>
-				    <td>Miguel Reyes</td>
-				    <td><b>405</b></td>
-				  </tr>
-				  <tr>
-				    <td>Victor M. Caja</td>
-				    <td><b>403</b></td>
-				  </tr>
-				  
-				  
-				 
-                
+				<table id="tbconta" width="180px">
 				</table>
 			</div>
 		    <div id="rh">
 				<img src="images/rh.png" width="180px" height="50px">
 			</div>
 			<div id="rhinfo">
-			    <table width="180px">
-				  <tr>
-				    <td>Claudia H</td>
-				    <td><b>407</b></td>
-				  </tr>
-				  <tr>
-				    <td>Roberto Tun</td>
-				    <td><b>408</b></td>
-				  </tr>
-				  
+			    <table id="tbrh" width="180px">
 				</table>
 			</div>
 			<div id="nacfond"></div>
@@ -476,99 +175,21 @@
 				<img src="images/apad.png" text-align="center" width="180px" height="50px">
 			</div>
 			<div id="apadinfo">
-				<table width="180px">
-				  <tr>
-				    <td>Rosalina Ramos</td>
-				    <td><b>513</b></td>
-				  </tr>
-                   <tr>
-				    <td>Aracely P&eacute;rez</td>
-				    <td><b>103</b></td>
-				  </tr>
-                   <tr>
-				    <td>Carmen Garc&iacute;a</td>
-				    <td><b>103</b></td>
-				  </tr>
-                   <tr>
-				    <td>Fax General</td>
-				    <td><b>104</b></td>
-				  </tr>
-                   <tr>
-				    <td>Isabel Romero</td>
-				    <td><b>102</b></td>
-				  </tr>
-				  <tr>
-				    <td>Lys Barrios</td>
-				    <td><b>102</b></td>
-				  </tr>
-				  <tr>
-				    <td>MarissaV</td>
-				    <td><b>101</b></td>
-				  </tr>
-				  		   
+				<table id="tbapad" width="180px">	 
                 </table>
 			</div>
 			<div id="oper">
 				<img src="images/operaciones.png" text-align="center" width="180px" height="50px">
 			</div>
 			<div id="operinfo">
-				<table width="180px">
-				  <tr>
-				    <td>Josu&eacute; Sic&aacute;n</td>
-				    <td><b>511</b></td>
-				  </tr>
-                    <tr>
-				    <td>Bodega (Esteban M)</td>
-				    <td><b>106</b></td>
-				  </tr> 
-                    <tr>
-				    <td>Carolina P&eacute;rez</td>
-				    <td><b>505</b></td>
-				  </tr>
-                   <tr>
-				    <td>Cocina</td>
-				    <td><b>512</b></td>
-				  <tr>
-				    <td>Mario L</td>
-				    <td><b>201</b></td>
-				  </tr>
-				   <tr>
-				    <td>Mart&iacute;n Zamora</td>
-				    <td><b>652</b></td>
-				  </tr>
-				  
-                
+				<table id="tbope" width="180px">
 				</table>
 			</div>
 			<div id="hosp">
 				<img src="images/hosp.png" text-align="center" width="180px" height="50px">
 			</div>
 			<div id="hospinfo">
-				<table width="180px">
-				  <tr>
-				    <td>Erin Treinen</td>
-				    <td><b>128</b></td>
-				  </tr>
-                   <tr>
-				    <td>Casa Vol</td>
-				    <td><b>525</b></td>
-				  </tr>
-				  <tr>
-				    <td>Claire D</td>
-				    <td><b>125</b></td>
-				  </tr>
-				  <tr>
-                    <tr>
-				  	<tr>
-				    <td>Emily S</td>
-				    <td><b>126</b></td>
-				  </tr>
-				    <td>Erin Gyori</td>
-				    <td><b>126</b></td>
-				  </tr>
-				  
-				 
-                   
+				<table id="tbhosp" width="180px">
 				</table>
 			</div>
 			<div id="sucurfond"></div>
@@ -576,43 +197,7 @@
 				<img src="images/sucur.png" text-align="center" width="176px" height="50px">
 			</div>
 			<div id="srinfo">
-				<table width="176px">
-				   <tr>
-				    <td>Alma Marroqu&iacute;n</td>
-				    <td class="auto-style68"><b>220</b></td>
-				  </tr>
-                    <tr>
-				    <td>Sof&iacute;a D&iacute;az</td>
-				    <td class="auto-style68"><b>222</b></td>
-				  </tr>
-                    <tr>
-				    <td>Mirna Boteo</td>
-				    <td class="auto-style68"><b>222</b></td>
-				  </tr>
-				  <tr>
-				    <td>Brenda Realique</td>
-				    <td class="auto-style68"><b>222</b></td>
-				  </tr>
-                   <tr>
-				    <td>Educ. Sucursales</td>
-				    <td class="auto-style68"><b>221</b></td>
-				  </tr>
-				  <tr>
-				    <td>Emma Garc&iacute;a</td>
-				    <td class="auto-style68"><b>222</b></td>
-				  </tr>
-                <tr>
-				    <td>Ligia Pol</td>
-				    <td class="auto-style68"><b>221</b></td>
-				  </tr>
-                    <tr>
-				    <td>Mar&iacute;a Ram&iacute;rez</td>
-				    <td class="auto-style68"><b>222</b></td>
-				  </tr>
-                    <tr>
-				    <td>Promotores</td>
-				    <td class="auto-style68"><b>221</b></td>
-				  </tr>
+				<table id="tbsucur" width="176px">
 				</table>
 			</div>
 			<div id="varfond"></div>
@@ -620,215 +205,35 @@
 				<img src="images/escuela.png" text-align="center" width="176px" height="50px">
 			</div>
 			<div id="escuelainfo">
-					<table width="176px">
-				  
-				  <tr>
-				    <td>Patricia G&oacute;mez</td>
-				    <td><b>603</b></td>
-				  </tr>
-                   <tr>
-				    <td>Ang&eacute;lica Pumay</td>
-				    <td><b>616</b></td>
-				  </tr>
-				  <tr>
-				    <td>Jorge Monge</td>
-				    <td><b>616</b></td>
-				  </tr>
-                <tr>
-				    <td>An&iacute;Mate</td>
-				    <td><b>617</b></td>
-				  </tr>
+				<table id="tbeduc" width="176px">
 				</table>
 			</div>
 				<div id="recau">
 				<img src="images/recaudacion.png" text-align="center" width="176px" height="50px">
 			</div>
 			<div id="recauinfo">
-					<table width="176px">
-				  
-				  <tr>
-				    <td>Hospitalidad&nbsp;</td>
-				    <td><b>153</b></td>
-				  </tr>
-				  <tr>
-				    <td>Verena M</td>
-				    <td><b>315</b></td>
-				  </tr>
-                
+				<table id="tbrecau" width="176px">
 				</table>
 			</div>
 			<div id="varios">
 				<img src="images/varios.png" text-align="center" width="176px" height="50px">
 			</div>
 			<div id="variosinfo">
-				<table width="176px">
-				 
-                   
-                    <tr>
-				    <td>Fax Cl&iacute;nica</td>
-				    <td><b>311</b></td>
-				  </tr>
-				  <tr>
-				    <td>Fax General</td>
-				    <td><b>104</b></td>
-				  </tr>
-                   <tr>
-				    <td>Recep. Cl&iacute;nica</td>
-				    <td><b>301</b></td>
-				  </tr>
-                    <tr>
-				    <td>Recepci&oacute;n General</td>
-				    <td><b>101</b></td>
-				  </tr> 
-                   <tr>
-				    <td>Sala A (AE)</td><td>
-				    <b>206</b></td>
-				  </tr>
-				    <tr>
-				    <td>Sala B (AE)</td>
-				    <td><b>207</b></td>
-				  </tr>
-                   <tr>
-				    <td>Sala Emergen.</td>
-				    <td><b>302</b></td>
-				  </tr>
-				  <tr>
-				    <td>Sala Hospitalidad</td>
-				    <td><b>127</b></td>
-				  </tr>				  				  				  
-				  <tr>
-				    <td>Sal&oacute;n Conferen.</td>
-				    <td><b>320</b></td>
-				  </tr>
-				   <tr>
-				    <td>Sal&oacute;n Rosas</td>
-				    <td><b>112</b></td>
-				  </tr>	                    
-				</table>
+				<table id="tbvarios" width="176px">
+				 </table>
 
 			</div>
 			<div id="celular">
 				<img src="images/cel.png" text-align="center" width="176px" height="50px">
 			</div>
 			<div id="celularinfo">
-					<table width="1125px" id="celulares" style="margin-bottom:20px;">
-				  <tr>
-				    <td class="auto-style30">Alicia Ram&iacute;rez </td>
-                      <td class="auto-style30 clase"><b>5482-7378</b></td>
-                    <td class="auto-style31">Claudia Silva</td>
-                      <td class="auto-style31 clase"><b>5482-7376</b></td>
-                      <td class="auto-style30">Guardianes</td>
-                      <td class="auto-style30 clase"><b>5482-7396</b></td>
-                      <td class="auto-style31">Luis Pichill&aacute;</td>
-                      <td class="auto-style31 clase"><b>4770-4383</b></td>
-                      <td class="auto-style30">Patricia Ram&iacute;rez</td>
-                      <td class="auto-style30 clase"><b>5482-7412</b></td>
-                      <td class="auto-style31">Sofia D&iacute;az</td>
-                      <td class="auto-style31 "><b>5951-5984</b></td>
-				  </tr>
-				  <tr>
-				   <td class="auto-style30">Alicia Ram&iacute;rez (ts)</td>
-                    <td class="auto-style30 clase"><b>5482-7381</b></td>
-                      <td class="auto-style31">Coord. Brigadas</td>
-                      <td class="auto-style31 clase"><b>5482-7419</b></td>
-                      <td class="auto-style30">Jaime Guerra</td>
-                      <td class="auto-style30 clase"><b>4210-1811</b></td>
-                      <td class="auto-style31">Luis Vel&aacute;zquez</td>
-                      <td class="auto-style31 clase"><b>5482-7384</b></td>
-                      <td class="auto-style30">Pablo Cerme&ntilde;o</td>
-                      <td class="auto-style30 clase"><b>5482-7375</b></td>
-				      <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-				  </tr>
-				  <tr>
-				    <td class="auto-style30">Alma Marroqu&iacute;n</td>
-                      <td class="auto-style30 clase"><b>4112-9801</b></td>
-                      <td class="auto-style31">Daniel Gómez</td>
-                      <td class="auto-style31 clase"><b>5554-4035</b></td>
-                     <td class="auto-style30">Jeff Barnes</td>
-                      <td class="auto-style30 clase"><b>5482-7418</b></td> 
-                      <td class="auto-style31">Lys Barrios</td>
-                      <td class="auto-style31 clase"><b>5482-7386</b></td>
-                      <td class="auto-style30">Rebecca Sanborn</td>
-                      <td class="auto-style30 clase"><b>5923-2058</b></td>
-				      <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-				  </tr>
-				  <tr>
-				    <td class="auto-style30">Ana Zuleta</td>
-                      <td class="auto-style30 clase"><b>5951-6002</b></td>
-                      <td class="auto-style31">Edwin Cal&iacute;</td>
-                      <td class="auto-style31 clase" ><b>4770-2413</b></td>
-                      <td class="auto-style30">Hospitalidad</td>
-                      <td class="auto-style30 clase"><b>5482-7387</b></td>
-                      <td class="auto-style31">Mario (Piloto)</td>
-                      <td class="auto-style31 clase"><b>5693-4707</b></td>
-                      <td class="auto-style30">Renato Westby</td>
-                      <td class="auto-style30 clase"><b>5482-7397</b></td>
-                      <td class="auto-style31"></td>
-                      <td class="auto-style31 "></td>
-				  </tr>
-				  <tr>
-				  	<td class="auto-style30">Beatriz L&oacute;pez</td>
-                      <td class="auto-style30 clase"><b>5482-7374</b></td>
-                      <td class="auto-style31">Erin Treinen</td>
-                      <td class="auto-style31 clase"><b>4264-9205</b></td>
-                      <td class="auto-style30">Jonathan de Le&oacute;n</td>
-                      <td class="auto-style30 clase"><b>4770-3407</b></td>
-                      <td class="auto-style31">Mirna Boteo</td>
-                      <td class="auto-style31 clase" ><b>5482-7365</b></td>
-                      <td class="auto-style30">Recursos Humanos</td>
-                      <td class="auto-style30 clase"><b>5482-7382</b></td>
-                      <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-				  </tr>
-				  <tr>
-				  	<td class="auto-style30">Beatriz L&oacute;pez (ts)</td>
-                      <td class="auto-style30 clase"><b>5843-2190</b></td>
-                      <td class="auto-style31">Elsa Garc&iacute;a</td>
-                      <td class="auto-style31 clase"><b>5120-4323</b></td>
-                      <td class="auto-style30">Josu&eacute; Sic&aacute;n</td>
-                      <td class="auto-style30 clase"><b>5482-7362</b></td>
-                      <td class="auto-style31">Nineth Garc&iacute;a</td>
-                      <td class="auto-style31 clase"><b>5951-6013</b></td>
-                      <td class="auto-style30">Rigoberto Garc&iacute;a</td>
-                      <td class="auto-style30 clase"><b>5951-5997</b></td>
-                      <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-                     
-
-				  </tr>
-                        <tr>
-                            <td class="auto-style30">Carmen Garc&iacute;a</td>
-                      <td class="auto-style30 clase"><b>5482-7361</b></td>
-                            <td class="auto-style31">Fernando Santos</td>
-                      <td class="auto-style31 clase"><b>5482-7371</b></td>
-                            <td class="auto-style30 ">Leslie Murga</td>
-                      <td class="auto-style30 clase"><b>5482-7392</b></td>
-                            <td class="auto-style31">Patricia de Le&oacute;n</td>
-                      <td class="auto-style31 clase"><b>4229-4581</b></td>
-                            <td class="auto-style30">Rosalina Ramos</td>
-                      <td class="auto-style30 clase"><b>5482-7338</b></td>
-                            <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-                      
-                        </tr>
-                        <tr>
-				    <td class="auto-style30">Carolina P&eacute;rez</td>
-                      <td class="auto-style30 clase"><b>4233-9867</b></td>
-                    <td class="auto-style31">Gerente NE</td>
-                      <td class="auto-style31 clase"><b>5482-5449</b></td>
-                      <td class="auto-style30">Ligia Pol</td>
-                      <td class="auto-style30 clase"><b>5923-7155</b></td>
-                      <td class="auto-style31">Patricia G&oacute;mez</td>
-                      <td class="auto-style31 clase"><b>5951-6003</b></td>
-                      <td class="auto-style30">Salud</td>
-                      <td class="auto-style30 clase"><b>5826-9791</b></td>
-                      <td class="auto-style31">&nbsp;</td>
-                      <td class="auto-style31 ">&nbsp;</td>
-				  </tr>
-                       
+				<table id="tbcel1" id="celulares"> 
 				</table>
+				<table id="tbcel2"></table>
+				<table id="tbcel3"></table>
+				<table id="tbcel4"></table>
+				<table id="tbcel5"></table>
+				<table id="tbcel6"></table>
 			</div>
 			<div id="ere">
 				<img src="images/ere.png" text-align="center" width="176px" height="50px">
@@ -845,9 +250,7 @@
 				  <tr><td class="auto-style30">Josu&eacute; Sic&aacute;n</td>
                       <td class="auto-style30 clase"><b>4058-2808 </b></td>
 				     <td class="auto-style31">Pablo Cerme&ntilde;o</td>
-                      <td class="auto-style31 "><b>5482-7375 </b
-                       
-				    
+                      <td class="auto-style31 "><b>5482-7375 </b></td>
 				  </tr>
 				  <tr><td class="auto-style30">Jaime Guerra</td>
                       <td class="auto-style30 clase"><b>4210-1811 </b></td>
@@ -860,4 +263,7 @@
 			</div>
             <footer>Ultima Actualizaci&oacute;n: 06/03/2019 </footer>
 		</body>
+
+		 <script src="main.js"> 
+		</script> 
 </html>
