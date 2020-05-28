@@ -1,0 +1,951 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: "Helvetica Neue", Helvetica, Arial;
+    height: 100%;
+    width: 1591px;
+}
+
+#upperbar{
+	background:  #333333;
+	width:1588px;
+	height:100px;
+	display: block;
+	position: absolute;
+	top: -1px;
+	left:0px;
+    z-index:0;
+}
+
+#titulo{
+	background:  #333333;
+	width:200px;
+	height:50px;
+	display: block;
+	position: absolute;
+	top: 40px;
+	left:700px;
+    z-index:1;
+}
+
+#logo{
+	display:block;
+	position: absolute;
+	left:10px;
+	top:5px;
+    z-index:1;
+}
+
+#FFDinfo{
+	display:block;
+	position: absolute;;
+	left:10px;
+	top:110px;
+	color:black;
+    font-weight:700;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#home{
+	display:block;
+	position: absolute;
+	left: 1300px;
+	top:110px;
+	cursor: pointer;
+
+}
+
+#dir{
+	display:block;
+	position: absolute;;
+	left:125px;
+	top:155px;
+	text-align: center;
+	width:295px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#dirinfo{
+	display:block;
+	position: absolute;;
+	left:125px;
+	top:205px;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 293px;
+}
+
+#sec{
+	display:block;
+	position: absolute;;
+	left:818px;
+	top:195px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+
+#secinfo{
+	display:block;
+	position: absolute;;
+	left:818px;
+	top:245px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#programas{
+	display: block;
+	position: absolute;
+	left:12px;
+	top:290px;
+	text-align: center;
+	width:555px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#jovenes{
+	display:block;
+	position: absolute;
+	left:12px;
+	top:345px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#jovenesinfo{
+	display:block;
+	position: absolute;;
+	left:12px;
+	top:395px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#biblioteca{
+	display:block;
+	position: absolute;
+	left:192px;
+	top:795px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#biblioinfo{
+	display:block;
+	position: absolute;;
+	left:192px;
+	top:845px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width:180PX;
+}
+#biblioinfo table {
+    width:100%;
+}
+
+#centro{
+	display:block;
+	position: absolute;
+	left:388px;
+	top:480px;
+	text-align: center;
+	width:175px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#centroinfo{
+	display:block;
+	position: absolute;;
+	left:388px;
+	top:530px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 172px;
+}
+
+#becas{
+	display:block;
+	position: absolute;
+	left:12px;
+	top:480px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#becasinfo{
+	display:block;
+	position: absolute;;
+	left:12px;
+	top:530px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#apoyo{
+	display:block;
+	position: absolute;
+	left:388px;
+	top:345px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#apoyoinfo{
+	display:block;
+	position: absolute;;
+	left:388px;
+	top:395px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 175px;
+}
+#apoyoinfo table{
+width:100%;
+}
+#vivienda{
+	display:block;
+	position: absolute;
+	left:198px;
+	top:480px;
+	text-align: center;
+	width:177px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#viviendainfo{
+	display:block;
+	position: absolute;;
+	left:200px;
+	top:530px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 175px;
+}
+
+#ts{
+	display:block;
+	position: absolute;
+	left:12px;
+	top:615px;
+	text-align: center;
+	width:363px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#tsinfo1{
+	display:block;
+	position: absolute;;
+	left:12px;
+	top:665px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width:179px;
+}
+#tsinfo1 table {
+    width:100%;
+}
+#tsinfo2{
+	display:block;
+	position: absolute;;
+	left:192px;
+	top:665px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    height: 120px;
+    width: 183px;
+}
+#tsinfo2 table {
+    width:100%;
+}
+#clinica{
+	display:block;
+	position: absolute;
+	left:388px;
+	top:615px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#clinicainfo{
+	display:block;
+	position: absolute;;
+	left:388px;
+	top:665px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#admin{
+	display: block;
+	position: absolute;
+	left:629.5px;
+	top:310px;
+	text-align: center;
+	width:555px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#sistemas{
+	display:block;
+	position: absolute;
+	left:630px;
+	top:365px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+#sisinfo{
+	display:block;
+	position: absolute;;
+	left:630px;
+	top:415px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#conta{
+	display:block;
+	position: absolute;
+	left:818px;
+	top:365px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#containfo{
+	display:block;
+	position: absolute;;
+	left:818px;
+	top:415px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#rh{
+	display:block;
+	position: absolute;
+	left:1006px;
+	top:365px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#rhinfo{
+	display:block;
+	position: absolute;;
+	left:1006px;
+	top:415px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#nac{
+	display: block;
+	position: absolute;
+	left:630px;
+	top:585px;
+	text-align: center;
+	width:555px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#apad{
+	display:block;
+	position: absolute;
+	left:630px;
+	top:645px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+#apadinfo{
+	display:block;
+	position: absolute;;
+	left:630px;
+	top:695px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#oper{
+	display:block;
+	position: absolute;
+	left:818px;
+	top:645px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#operinfo{
+	display:block;
+	position: absolute;;
+	left:818px;
+	top:695px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#hosp{
+	display:block;
+	position: absolute;
+	left:1006px;
+	top:645px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#hospinfo{
+	display:block;
+	position: absolute;;
+	left:1006px;
+	top:695px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#sucur{
+	display: block;
+	position: absolute;
+	left:1324.25px;
+	top:310px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#sr{
+	display: block;
+	position: absolute;
+	left:1324.25px;
+	top:365px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#srinfo{
+	display:block;
+	position: absolute;;
+	left:1324.25px;
+	top:361px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#sm{
+	display: block;
+	position: absolute;
+	left:1418px;
+	top:365px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#sminfo{
+	display:block;
+	position: absolute;;
+	left:1418px;
+	top:415px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#escuela{
+	display: block;
+	position: absolute;
+	left:200px;
+	top:345px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#escuelainfo{
+	display:block;
+	position: absolute;;
+	left:200px;
+	top:395px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#recau{
+	display: block;
+	position: absolute;
+	left:1235px;
+	top:585px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#recauinfo{
+	display:block;
+	position: absolute;;
+	left:1235px;
+	top:635px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#varios{
+	display: block;
+	position: absolute;
+	left:1418px;
+	top:585px;
+	text-align: center;
+	width:176px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#variosinfo{
+	display:block;
+	position: absolute;;
+	left:1418px;
+	top:635px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 176px;
+}
+
+#profond{
+	display: block;
+	position: absolute;
+	left:12px;
+	top:310px;
+	width:556px;
+	height: 605px;
+	background-color:#eaf2ff; 
+}
+
+#admfond{
+	display: block;
+	position: absolute;
+	left:629.5px;
+	top:310px;
+	width:556px;
+	height: 275px;
+	background-color:#fff9ea; 
+}
+
+#nacfond{
+	display: block;
+	position: absolute;
+	left:630px;
+	top:585px;
+	width:556px;
+	height: 260px;
+	background-color:#fce0e4; 
+}
+
+#sucurfond{
+	display: block;
+	position: absolute;
+	left:1324.25px;
+	top:310px;
+	width:176px;
+	height: 260px;
+	background-color:#e0fce3; 
+}
+
+#varfond{
+	display: block;
+	position: absolute;
+	left:1235px;
+	top:585px;
+	width:355px;
+	height: 280px;
+	background-color:#fcebe0; 
+}
+
+#celular{
+	display: block;
+	position: absolute;
+	left:12px;
+	top:920px;
+	text-align: center;
+	width:1200px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#celularinfo{
+	display:block;
+	position: absolute;;
+	left:13px;
+	top:970px;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 1197px;
+}
+
+#ere{
+	display: block;
+	position: absolute;
+	left:1235px;
+	top:920px;
+	text-align: center;
+	width:380px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#ereinfo{
+	display:block;
+	position: absolute;;
+	left:1235px;
+	top:970px;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+    width: 378px;
+}
+
+#ereinfo table {
+width:101%;
+}
+#adminne{
+	display:block;
+	position: absolute;
+	left:12px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#adminneinfo{
+	display:block;
+	position: absolute;;
+	left:12px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+#aene{
+	display:block;
+	position: absolute;
+	left:330px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#aeneinfo{
+	display:block;
+	position: absolute;;
+	left:330px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#escuelane{
+	display:block;
+	position: absolute;
+	left:600px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#escuelaneinfo{
+	display:block;
+	position: absolute;;
+	left:600px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#salonesne{
+	display:block;
+	position: absolute;
+	left:930px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#salonesneinfo{
+	display:block;
+	position: absolute;;
+	left:930px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#celularne{
+	display: block;
+	position: absolute;
+	left:75px;
+	top:725px;
+	text-align: center;
+	width:1125px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#celularneinfo{
+	display:block;
+	position: absolute;;
+	left:75px;
+	top:775px;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#sp{
+	display:block;
+	position: absolute;
+	left:430px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#spinfo{
+	display:block;
+	position: absolute;;
+	left:430px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#shogua{
+	display:block;
+	position: absolute;
+	left:730px;
+	top:280px;
+	text-align: center;
+	width:180px;
+	height: 50px;
+	background-color:#333333; 
+}
+
+#shoguainfo{
+	display:block;
+	position: absolute;;
+	left:730px;
+	top:330px;
+	text-align: center;
+	color:black;
+    font-weight:500;
+    font-size:14px;
+    font-family: 'Raleway',sans-serif;
+}
+
+
+#antigua{
+	display: :block;
+	position: absolute;
+	left:200px;
+	top:500px;
+	cursor: pointer;
+}
+
+#antname{
+	display: :block;
+	position: absolute;
+	left:270px;
+	top:450px;
+	color:black;
+    font-weight:800;
+    font-size:25px;
+    font-family: 'Raleway',sans-serif;
+}
+
+#NE{
+	display: :block;
+	position: absolute;
+	left:600px;
+	top:500px;
+	cursor: pointer;
+}
+
+#nename{
+	display: :block;
+	position: absolute;
+	left:620px;
+	top:450px;
+	color:black;
+    font-weight:800;
+    font-size:25px;
+    font-family: 'Raleway',sans-serif;
+}
+#spname{
+	display: :block;
+	position: absolute;
+	left:1050px;
+	top:450px;
+	color:black;
+    font-weight:800;
+    font-size:25px;
+    font-family: 'Raleway',sans-serif;
+}
+#SP{
+	display:block;
+	position: absolute;
+	left:1000px;
+	top:500px;
+	cursor: pointer;
+}
+#celulares {
+width:1200px;
+}
+.auto-style30 {
+background-color: rgb(183,200,223);
+
+}
+.auto-style31 {
+background-color: rgb(209,236,198);
+}
+.clase {
+border-right:1px solid black;
+}
+.tabinfo {
+width:100%;
+}
+footer {
+background:#333333;
+color:#fff;
+text-align:left;
+width:100%;
+position:fixed;
+bottom:0;
+left:0;
+}
